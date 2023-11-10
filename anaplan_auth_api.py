@@ -3,6 +3,7 @@
 # ===============================================================================
 
 
+
 import sys
 import os
 import logging
@@ -15,10 +16,10 @@ import apsw.ext
 import globals
 
 from base64 import b64encode
-from crypto.PublicKey import RSA
-from crypto.Random import get_random_bytes
-from crypto.Signature import pkcs1_15
-from crypto.Hash import SHA512
+from Crypto.PublicKey import RSA
+from Crypto.Random import get_random_bytes
+from Crypto.Signature import pkcs1_15
+from Crypto.Hash import SHA512
 
 
 # Enable logger

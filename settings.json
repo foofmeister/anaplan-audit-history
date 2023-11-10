@@ -1,7 +1,7 @@
 {
     "authenticationMode": "basic",
-    "publicCertPath": "AnaplanSSAPublic.pem",
-    "privateKeyPath": "AnaplanSSAPrivate.pem",
+    "publicCertPath": "./AnaplanSSAPublic.pem",
+    "privateKeyPath": "./AnaplanSSAPrivate.pem",
     "anaplanTenantName": "Seller360.Support@lumen.com",
     "writeSampleFilesOverride": false,
     "database": "audit.db3",
