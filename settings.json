@@ -1,5 +1,5 @@
 {
-    "authenticationMode": "cert_auth",
+    "authenticationMode": "basic",
     "publicCertPath": "AnaplanSSAPublic.pem",
     "privateKeyPath": "AnaplanSSAPrivate.pem",
     "anaplanTenantName": "Seller360.Support@lumen.com",
@@ -17,8 +17,8 @@
         "cloudworksApi": "https://api.cloudworks.anaplan.com/2/0"
     },
     "targetAnaplanModel": {
-        "workspace": "Workspace #1",
-        "model": "Audit Report V2",
+        "workspace": "Lumen - 360 Analytics PROD",
+        "model": "360 Analytics [PROD]",
         "process": "Update Anaplan Audit Environment",
         "clearListProcess": "Clear Lists",
         "clearCtListProcess": "Clear CT Lists",
