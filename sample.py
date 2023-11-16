@@ -41,3 +41,7 @@ for table in tables:
 # Close the connection
 
 conn.close()
+
+#https://community.anaplan.com/discussion/155754/part-3-anaplan-audit-history-data-in-an-anaplan-reporting-model
+#https://community.anaplan.com/discussion/155744/part-1-enhanced-reporting-of-the-anaplan-audit-log-summary
+#https://community.anaplan.com/discussion/155745/part-2-enhancing-anaplan-audit-log-data-extraction-with-a-streamlined-python-solution
