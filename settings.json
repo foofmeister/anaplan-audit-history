@@ -1,13 +1,24 @@
 {
+
     "authenticationMode": "basic",
     "publicCertPath": "./AnaplanSSAPublic.pem",
     "privateKeyPath": "./AnaplanSSAPrivate.pem",
     "anaplanTenantName": "Seller360.Support@lumen.com",
     "writeSampleFilesOverride": false,
     "database": "audit.db3",
-    "rotatableToken": true,
     "lastRun": 0,
     "auditBatchSize": 10000,
+    "workspaceModelFilterApproach": "select",
+    "workspaceModelCombos": [
+        {
+            "WorkspaceId": "8a868cd9837162ef0183cd4d7ba842c0",
+            "ModelId": "295D98F37F1B4682BE7A29035CBFB924"
+        },
+        {
+            "WorkspaceId": "add your workspace to select or skip here",
+            "ModelId": "add your model to select or skip here"
+        }
+    ],
     "uris": {
         "oauthService": "https://us1a.app.anaplan.com/oauth",
         "authenticationApi": "https://auth.anaplan.com/token",
